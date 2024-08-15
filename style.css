@@ -120,7 +120,7 @@ body {
   list-style: none;
   color: white;
   width: 100px;
-  background: rgba(215, 3, 173, 0.482);
+  background: transparent;
 }
 .toggle-list li {
   font-size: 20px;
@@ -129,6 +129,7 @@ body {
     0 0 0.2em rgb(36, 160, 123);
   width: 90px;
   cursor: pointer;
+  color: rgb(138, 16, 238);
 }
 /* Hero section */
 
@@ -137,7 +138,11 @@ body {
   width: 100%;
   height: 580px;
 }
-
+@media screen and (max-width: 600px) {
+  .hero-img {
+    width: 550px;
+  }
+}
 .hero-text {
   text-align: center;
   position: absolute;
@@ -147,8 +152,9 @@ body {
 }
 @media screen and (max-width: 600px) {
   .hero-text {
+    top: 100px;
     text-align: center;
-    left: 20px;
+    left: 50%;
   }
 }
 .hero-text h1 {
@@ -187,7 +193,18 @@ body {
   font-size: small;
   cursor: pointer;
 }
-
+@media screen and (max-width: 600px) {
+  .service-text {
+    margin-left: 30%;
+  }
+  .service-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .services {
+    margin-left: 50%;
+  }
+}
 .services:hover {
   transition: 0.3s ease-in-out;
   transform: scale(1.25);
@@ -199,33 +216,57 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+@media screen and (max-width: 600px) {
+  .benefits-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+}
 .bc-left-box {
-  width: 400px;
+  width: 200px;
   height: 200px;
   margin: 20px;
   box-shadow: 1px 1px 2px rgb(156, 225, 38), 0 0 1em rgb(17, 146, 51),
     0 0 0.2em rgb(36, 160, 123);
   border-radius: 15px;
 }
-.bc-right-box {
-  width: 400px;
-  height: 200px;
-  margin: 20px;
-  box-shadow: 1px 1px 2px rgb(156, 225, 38), 0 0 1em rgb(17, 146, 51),
-    0 0 0.2em rgb(36, 160, 123);
-  border-radius: 15px;
+@media screen and (max-width: 600px) {
+  .bc-middle-img {
+    display: none;
+  }
+  .bc-left-box {
+    margin-left: 50%;
+  }
 }
 
+.bc-right-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  box-shadow: 1px 1px 2px rgb(156, 225, 38), 0 0 1em rgb(17, 146, 51),
+    0 0 0.2em rgb(36, 160, 123);
+  border-radius: 15px;
+}
+@media screen and (max-width: 600px) {
+  .bc-right-box {
+    margin-left: 50%;
+  }
+}
 .benefits-para {
   margin: 15px;
 }
+@media screen and (max-width: 600px) {
+  .benefits-para {
+    font-size: 10px;
+  }
+}
 
 /* Field Image  */
-.field-img {
+/* .field-img {
   height: 200px;
   width: 100%;
-}
+} */
 
 /* Timeline section */
 .timeline {
@@ -314,7 +355,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .location-img {
-    margin-left: 33px;
+    margin-left: 50px;
   }
 }
 .contact-form-section {
@@ -322,6 +363,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .contact-form-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 
 .contact-form {
@@ -341,7 +388,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .form-input {
-    width: 15rem;
+    width: 300px;
   }
 }
 
@@ -374,8 +421,8 @@ body {
 }
 @media screen and (max-width: 600px) {
   .text-container {
+    width: 300px;
     margin-left: 40px;
-    margin-top: -20px;
   }
 }
 
@@ -384,14 +431,15 @@ body {
   background: rgb(126, 207, 5);
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  /* width: 100%; */
   margin-top: 40px;
 }
-@media screen and (min-width: 300px) {
-  /* .about--contact--section {
-    width: 100%;
-    height: 300px;
-  } */
+@media screen and (max-width: 600px) {
+  .about--contact--section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background: white;
+  }
 }
 
 .about-section {
@@ -407,7 +455,15 @@ body {
 .about-paragraph {
   font-size: 20px;
 }
-
+@media screen and (max-width: 600px) {
+  .about-heading {
+    color: black;
+  }
+  .about-paragraph {
+    font-size: 14px;
+    color: black;
+  }
+}
 .contact-section {
   margin-right: 80px;
   margin-top: 25px;
@@ -415,6 +471,8 @@ body {
 @media screen and (max-width: 600px) {
   .contact-section {
     margin-right: 0px;
+    justify-content: center;
+    margin-top: -20px;
   }
 }
 
@@ -427,13 +485,22 @@ body {
   color: white;
   list-style: none;
 }
-
+@media screen and (max-width: 600px) {
+  .contact-heading {
+    color: black;
+  }
+  .contact-medias {
+    font-size: 14px;
+    color: black;
+  }
+}
 .media-item {
   margin-bottom: 8px;
 }
 @media screen and (max-width: 600px) {
   .media-item {
     width: 260px;
+    font-size: 14px;
   }
 }
 
@@ -443,7 +510,16 @@ body {
   color: white;
   text-align: center;
   word-spacing: 8px;
+  width: 100vw;
 }
 .fa-copyright {
   font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+  .footer-section {
+    color: black;
+    background: white;
+    margin-bottom: 6px;
+    margin-left: 20%;
+  }
 }
