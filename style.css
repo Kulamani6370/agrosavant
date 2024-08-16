@@ -172,6 +172,8 @@ body {
   .hero-text {
     justify-content: center;
     margin-left: 120px;
+    top: 30%;
+    left: 1%;
   }
   .hero-text h1 {
     color: green;
@@ -205,8 +207,8 @@ body {
 }
 @media screen and (max-width: 600px) {
   .service-text {
-    margin-left: 180px;
-    margin-top: 150px;
+    margin-left: 100px;
+    margin-top: 100px;
     text-align: center;
   }
   .service-section {
@@ -216,7 +218,7 @@ body {
   }
   .services {
     position: relative;
-    margin-left: 200px;
+    margin-left: 140px;
     width: 300px;
     height: 250px;
   }
@@ -232,8 +234,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 600px) {
-}
 .bc-left-box {
   width: 200px;
   height: 200px;
@@ -241,23 +241,6 @@ body {
   box-shadow: 1px 1px 2px rgb(156, 225, 38), 0 0 1em rgb(17, 146, 51),
     0 0 0.2em rgb(36, 160, 123);
   border-radius: 15px;
-}
-@media screen and (max-width: 600px) {
-  .benefits-container {
-    flex-direction: column;
-  }
-  .bc-middle-img {
-    display: none;
-  }
-  .bc-left-box {
-    margin-left: 200px;
-  }
-  .bc-right-box {
-    margin-left: 220px;
-  }
-  .benefits-para {
-    font-size: 10px;
-  }
 }
 
 .bc-right-box {
@@ -280,24 +263,18 @@ body {
     display: none;
   }
   .bc-left-box {
-    margin-left: 200px;
+    margin-left: 120px;
   }
   .bc-right-box {
-    margin-left: 200px;
+    margin-left: 120px;
   }
   .benefits-para {
     font-size: 10px;
   }
   .benefits-heading {
-    margin-left: 180px;
+    margin-left: 100px;
   }
 }
-
-/* Field Image  */
-/* .field-img {
-  height: 200px;
-  width: 100%;
-} */
 
 /* Timeline section */
 .timeline {
@@ -370,7 +347,7 @@ body {
     color: green;
   }
 }
-/* Contact section */
+/* Contact section / message form section */
 
 .lc-img-con {
   justify-content: center;
@@ -437,18 +414,21 @@ body {
     padding-left: 50px;
   }
   .message-heading {
-    margin-left: 60px;
+    margin-left: 30px;
   }
   .contact-form-section {
     display: grid;
     grid-template-rows: 1fr 1fr;
+  }
+  .contact-form {
+    margin-left: 10px;
   }
   .form-input {
     width: 300px;
   }
   .text-container {
     width: 300px;
-    margin-left: 30px;
+    margin-left: 10px;
   }
 }
 
