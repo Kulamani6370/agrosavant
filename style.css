@@ -206,7 +206,7 @@ body {
 @media screen and (max-width: 600px) {
   .service-text {
     margin-left: 180px;
-    margin-top: 50px;
+    margin-top: 150px;
     text-align: center;
   }
   .service-section {
