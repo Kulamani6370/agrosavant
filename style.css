@@ -172,8 +172,9 @@ body {
   .hero-text {
     justify-content: center;
     margin-left: 120px;
+    text-align: start;
     top: 30%;
-    left: -60px;
+    left: 30px;
   }
   .hero-text h1 {
     color: green;
