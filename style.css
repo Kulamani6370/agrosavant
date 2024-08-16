@@ -173,7 +173,7 @@ body {
     justify-content: center;
     margin-left: 120px;
     top: 30%;
-    left: 1%;
+    left: -60px;
   }
   .hero-text h1 {
     color: green;
@@ -421,7 +421,7 @@ body {
     grid-template-rows: 1fr 1fr;
   }
   .contact-form {
-    margin-left: 10px;
+    margin-left: 30px;
   }
   .form-input {
     width: 300px;
