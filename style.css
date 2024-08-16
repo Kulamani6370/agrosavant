@@ -83,8 +83,6 @@ body {
 .login-section {
   margin-right: 18px;
 }
-@media screen and (max-width: 600px) {
-}
 
 .login-btn {
   background-color: rgb(50, 153, 50);
@@ -171,10 +169,10 @@ body {
 @media screen and (max-width: 600px) {
   .hero-text {
     justify-content: center;
-    margin-left: 120px;
+    /* margin-left: 120px; */
     text-align: start;
     top: 30%;
-    left: 30px;
+    /* left: 30px; */
   }
   .hero-text h1 {
     color: green;
@@ -208,7 +206,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .service-text {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-top: 100px;
     text-align: center;
   }
@@ -219,7 +217,7 @@ body {
   }
   .services {
     position: relative;
-    margin-left: 140px;
+    /* margin-left: 140px; */
     width: 300px;
     height: 250px;
   }
@@ -264,16 +262,16 @@ body {
     display: none;
   }
   .bc-left-box {
-    margin-left: 120px;
+    /* margin-left: 120px; */
   }
   .bc-right-box {
-    margin-left: 120px;
+    /* margin-left: 120px; */
   }
   .benefits-para {
     font-size: 10px;
   }
   .benefits-heading {
-    margin-left: 100px;
+    /* margin-left: 100px; */
   }
 }
 
@@ -338,13 +336,13 @@ body {
 }
 @media screen and (max-width: 600px) {
   .timeline {
-    padding-left: 80px;
+    /* padding-left: 80px; */
   }
   .timeline__title {
     position: relative;
   }
   .timeline__heading {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     color: green;
   }
 }
@@ -412,24 +410,24 @@ body {
     display: none;
   }
   .message-section {
-    padding-left: 50px;
+    /* padding-left: 50px; */
   }
   .message-heading {
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
   .contact-form-section {
     display: grid;
     grid-template-rows: 1fr 1fr;
   }
   .contact-form {
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
   .form-input {
     width: 300px;
   }
   .text-container {
     width: 300px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
 }
 
@@ -459,7 +457,7 @@ body {
 }
 .contact-heading {
   color: white;
-  margin-left: 33px;
+  /* margin-left: 33px; */
 }
 
 .contact-medias {
@@ -480,13 +478,13 @@ body {
   }
   .about-heading {
     text-align: center;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     color: darkgreen;
   }
   .about-paragraph {
     font-size: 14px;
     color: green;
-    margin-left: 100px;
+    /* margin-left: 100px; */
   }
   .contact-section {
     margin-right: 0px;
@@ -495,7 +493,7 @@ body {
   }
   .contact-heading {
     color: darkgreen;
-    margin-left: 100px;
+    /* margin-left: 100px; */
   }
   .contact-medias {
     font-size: 14px;
